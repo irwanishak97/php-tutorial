@@ -25,6 +25,11 @@
             function makePasta(){
                 echo "The chef make pasta <br>";
             }
+
+            function makeSpecialDish()
+            {
+                echo "The chef makes chicken parmesan"; //this is overriding. dia boleh amik chef punya and tukar jadi dia punya
+            }
         }
 
         $chef = new Chef(); //make few chef
